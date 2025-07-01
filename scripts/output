@@ -1,0 +1,334 @@
+stampe degli output ottenuti:
+
+
+# CON ACC_DEV_STD
+
+READING csv...
+extracting night...
+extraction finished in: 0.9370127360026042 minutes
+
+----- DAY: 2022-03-25 -----
+resampling to 20Hz...
+FINISHED in: 0.009711941083272299 minutes
+computing polar coordinates...
+FINISHED in: 0.5477174162864685 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-25 23:59:51 to 2022-03-26 00:59:51
+AWAKE: has been moving from 2022-03-26 08:13:52 to 2022-03-26 08:18:52
+awakenings: 1
+sleep_periods: ['[2022-03-25 23:59:51 - 2022-03-26 08:13:52]']
+FINISHED in: 0.9976301908493042 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 0.9394522229830424 minutes
+
+----- DAY: 2022-03-26 -----
+resampling to 20Hz...
+FINISHED in: 0.009398825963338216 minutes
+computing polar coordinates...
+FINISHED in: 0.556339414914449 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-27 00:23:02 to 2022-03-27 01:23:02
+AWAKE: has been moving from 2022-03-27 07:17:03 to 2022-03-27 07:22:03
+awakenings: 1
+sleep_periods: ['[2022-03-27 00:23:02 - 2022-03-27 07:17:03]']
+FINISHED in: 1.2135867118835448 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.4243058959643047 minutes
+
+----- DAY: 2022-03-27 -----
+resampling to 20Hz...
+FINISHED in: 0.020907036463419595 minutes
+computing polar coordinates...
+FINISHED in: 0.9045822898546855 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-27 22:14:13 to 2022-03-27 23:14:13
+awakenings: 0
+sleep_periods: ['[2022-03-27 22:14:13 -  ... ]']
+FINISHED in: 0.5233222603797912 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.362020989259084 minutes
+
+----- DAY: 2022-03-28 -----
+resampling to 20Hz...
+FINISHED in: 0.0118583877881368 minutes
+computing polar coordinates...
+FINISHED in: 0.7835044304529826 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-28 21:00:00 to 2022-03-28 22:00:00
+AWAKE: has been moving from 2022-03-29 06:41:01 to 2022-03-29 06:46:01
+awakenings: 1
+sleep_periods: ['[2022-03-28 21:00:00 - 2022-03-29 06:41:01]']
+FINISHED in: 1.1274680654207865 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.0085006833076477 minutes
+
+----- DAY: 2022-03-29 -----
+resampling to 20Hz...
+FINISHED in: 0.009995496273040772 minutes
+computing polar coordinates...
+FINISHED in: 0.5802633881568908 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-29 21:53:52 to 2022-03-29 22:53:52
+AWAKE: has been moving from 2022-03-30 07:22:53 to 2022-03-30 07:27:53
+awakenings: 1
+sleep_periods: ['[2022-03-29 21:53:52 - 2022-03-30 07:22:53]']
+FINISHED in: 0.8004576961199442 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 0.9256154855092367 minutes
+
+----- DAY: 2022-03-30 -----
+resampling to 20Hz...
+FINISHED in: 0.00973731279373169 minutes
+computing polar coordinates...
+FINISHED in: 0.6365987102190653 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-30 21:26:31 to 2022-03-30 22:26:31
+AWAKE: has been moving from 2022-03-31 07:51:32 to 2022-03-31 07:56:32
+awakenings: 1
+sleep_periods: ['[2022-03-30 21:26:31 - 2022-03-31 07:51:32]']
+FINISHED in: 0.6229690829912822 minutes
+
+SAVING TO engineered_features...
+DONE
+PLOTTING acc_dev_std, ang_dev_std FOR 2022_03_25__CF0015DD8E0C52E75EFDF4C064108636.csv...
+done loading
+saving night between 2022-03-25 and 2022-03-26
+saving night between 2022-03-26 and 2022-03-27
+saving night between 2022-03-27 and 2022-03-28
+saving night between 2022-03-28 and 2022-03-29
+saving night between 2022-03-29 and 2022-03-30
+saving night between 2022-03-30 and 2022-03-31
+DONE PLOTTING in: 0.031326095263163246 minutes
+
+Process finished with exit code 0
+
+
+
+# IQR
+
+READING csv...
+extracting night...
+extraction finished in: 0.9338268637657166 minutes
+
+----- DAY: 2022-03-25 -----
+resampling to 20Hz...
+FINISHED in: 0.009347410996754964 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-25 23:03:00 to 2022-03-26 00:03:00
+AWAKE: has been moving from 2022-03-26 08:22:01 to 2022-03-26 08:27:01
+awakenings: 1
+sleep_periods: ['[2022-03-25 23:03:00 - 2022-03-26 08:22:01]']
+FINISHED in: 0.8163437883059184 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 0.9135294755299886 minutes
+
+----- DAY: 2022-03-26 -----
+resampling to 20Hz...
+FINISHED in: 0.009179127216339112 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-27 00:23:18 to 2022-03-27 01:23:18
+AWAKE: has been moving from 2022-03-27 05:07:19 to 2022-03-27 05:12:19
+ASLEEP: has not been moving from 2022-03-27 06:31:17 to 2022-03-27 07:31:17
+AWAKE: has been moving from 2022-03-27 07:31:18 to 2022-03-27 07:36:18
+awakenings: 2
+sleep_periods: ['[2022-03-27 00:23:18 - 2022-03-27 05:07:19]', '[2022-03-27 06:31:17 - 2022-03-27 07:31:18]']
+FINISHED in: 1.6329301277796426 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.2768668174743651 minutes
+
+----- DAY: 2022-03-27 -----
+resampling to 20Hz...
+FINISHED in: 0.015369033813476563 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-28 01:31:17 to 2022-03-28 02:31:17
+AWAKE: has been moving from 2022-03-28 04:31:18 to 2022-03-28 04:36:18
+ASLEEP: has not been moving from 2022-03-28 06:17:06 to 2022-03-28 07:17:06
+AWAKE: has been moving from 2022-03-28 07:34:07 to 2022-03-28 07:39:07
+awakenings: 2
+sleep_periods: ['[2022-03-28 01:31:17 - 2022-03-28 04:31:18]', '[2022-03-28 06:17:06 - 2022-03-28 07:34:07]']
+FINISHED in: 4.013279481728872 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.7001134912172953 minutes
+
+----- DAY: 2022-03-28 -----
+resampling to 20Hz...
+FINISHED in: 0.01924687623977661 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-28 21:25:26 to 2022-03-28 22:25:26
+AWAKE: has been moving from 2022-03-28 22:34:27 to 2022-03-28 22:39:27
+ASLEEP: has not been moving from 2022-03-28 23:39:25 to 2022-03-29 00:39:25
+AWAKE: has been moving from 2022-03-29 03:41:26 to 2022-03-29 03:46:26
+ASLEEP: has not been moving from 2022-03-29 05:56:59 to 2022-03-29 06:56:59
+AWAKE: has been moving from 2022-03-29 06:57:00 to 2022-03-29 07:02:00
+awakenings: 3
+sleep_periods: ['[2022-03-28 21:25:26 - 2022-03-28 22:34:27]', '[2022-03-28 23:39:25 - 2022-03-29 03:41:26]', '[2022-03-29 05:56:59 - 2022-03-29 06:57:00]']
+FINISHED in: 3.2820820490519207 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.6327865362167358 minutes
+
+----- DAY: 2022-03-29 -----
+resampling to 20Hz...
+FINISHED in: 0.01714897950490316 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-29 23:18:38 to 2022-03-30 00:18:38
+AWAKE: has been moving from 2022-03-30 00:18:39 to 2022-03-30 00:23:39
+ASLEEP: has not been moving from 2022-03-30 01:13:00 to 2022-03-30 02:13:00
+AWAKE: has been moving from 2022-03-30 02:22:01 to 2022-03-30 02:27:01
+ASLEEP: has not been moving from 2022-03-30 03:07:07 to 2022-03-30 04:07:07
+AWAKE: has been moving from 2022-03-30 04:07:08 to 2022-03-30 04:12:08
+ASLEEP: has not been moving from 2022-03-30 04:50:35 to 2022-03-30 05:50:35
+AWAKE: has been moving from 2022-03-30 07:32:36 to 2022-03-30 07:37:36
+awakenings: 4
+sleep_periods: ['[2022-03-29 23:18:38 - 2022-03-30 00:18:39]', '[2022-03-30 01:13:00 - 2022-03-30 02:22:01]', '[2022-03-30 03:07:07 - 2022-03-30 04:07:08]', '[2022-03-30 04:50:35 - 2022-03-30 07:32:36]']
+FINISHED in: 7.30789057413737 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.6143501003583272 minutes
+
+----- DAY: 2022-03-30 -----
+resampling to 20Hz...
+FINISHED in: 0.016215840975443523 minutes
+DETECTING SLEEP PERIODS...
+ASLEEP: has not been moving from 2022-03-31 01:12:44 to 2022-03-31 02:12:44
+AWAKE: has been moving from 2022-03-31 05:14:45 to 2022-03-31 05:19:45
+ASLEEP: has not been moving from 2022-03-31 05:58:53 to 2022-03-31 06:58:53
+AWAKE: has been moving from 2022-03-31 07:31:54 to 2022-03-31 07:36:54
+awakenings: 2
+sleep_periods: ['[2022-03-31 01:12:44 - 2022-03-31 05:14:45]', '[2022-03-31 05:58:53 - 2022-03-31 07:31:54]']
+FINISHED in: 3.126008427143097 minutes
+
+SAVING TO engineered_features...
+DONE
+PLOTTING acc_dev_std, iqr FOR 2022_03_25__CF0015DD8E0C52E75EFDF4C064108636.csv...
+done loading
+saving night between 2022-03-25 and 2022-03-26
+saving night between 2022-03-26 and 2022-03-27
+saving night between 2022-03-27 and 2022-03-28
+saving night between 2022-03-28 and 2022-03-29
+saving night between 2022-03-29 and 2022-03-30
+saving night between 2022-03-30 and 2022-03-31
+DONE PLOTTING in: 0.05885704358418783 minutes
+
+Process finished with exit code 0
+
+
+
+# ACC_DEV_STD + IQR
+
+C:\Users\cate1\AppData\Local\Programs\Python\Python311\python.exe C:\Users\cate1\Desktop\Info\TesiTriennale\source_code_updated\scripts\classificator_interquartile.py
+READING csv...
+extracting night...
+extraction finished in: 1.3181798179944357 minutes
+
+----- DAY: 2022-03-25 -----
+resampling to 20Hz...
+FINISHED in: 0.013607649008433025 minutes
+DETECTING SLEEP PERIODS...
+AWAKE --> ASLEEP: has not been moving from 2022-03-25 23:59:51 to 2022-03-26 00:59:51
+ASLEEP --> AWAKE: has been moving from 2022-03-26 08:21:52 to 2022-03-26 08:26:52
+awakenings: 1
+sleep_periods: ['[2022-03-25 23:59:51 - 2022-03-26 08:21:52]']
+FINISHED in: 1.4593518495559692 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.2610442956288657 minutes
+
+----- DAY: 2022-03-26 -----
+resampling to 20Hz...
+FINISHED in: 0.013069427013397217 minutes
+DETECTING SLEEP PERIODS...
+AWAKE --> ASLEEP: has not been moving from 2022-03-27 00:23:18 to 2022-03-27 01:23:18
+ASLEEP --> AWAKE: has been moving from 2022-03-27 07:25:19 to 2022-03-27 07:30:19
+awakenings: 1
+sleep_periods: ['[2022-03-27 00:23:18 - 2022-03-27 07:25:19]']
+FINISHED in: 1.6520080327987672 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.2724015593528748 minutes
+
+----- DAY: 2022-03-27 -----
+resampling to 20Hz...
+FINISHED in: 0.013851428031921386 minutes
+DETECTING SLEEP PERIODS...
+AWAKE --> ASLEEP: has not been moving from 2022-03-28 01:31:17 to 2022-03-28 02:31:17
+awakenings: 0
+sleep_periods: ['[2022-03-28 01:31:17 -  ... ]']
+FINISHED in: 1.3203078150749206 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.3411075949668885 minutes
+
+----- DAY: 2022-03-28 -----
+resampling to 20Hz...
+FINISHED in: 0.01281506617863973 minutes
+DETECTING SLEEP PERIODS...
+AWAKE --> ASLEEP: has not been moving from 2022-03-28 23:10:17 to 2022-03-29 00:10:17
+ASLEEP --> AWAKE: has been moving from 2022-03-29 06:48:18 to 2022-03-29 06:53:18
+awakenings: 1
+sleep_periods: ['[2022-03-28 23:10:17 - 2022-03-29 06:48:18]']
+FINISHED in: 2.064451781908671 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.28509548107783 minutes
+
+----- DAY: 2022-03-29 -----
+resampling to 20Hz...
+FINISHED in: 0.01330657402674357 minutes
+DETECTING SLEEP PERIODS...
+AWAKE --> ASLEEP: has not been moving from 2022-03-29 23:18:38 to 2022-03-30 00:18:38
+ASLEEP --> AWAKE: has been moving from 2022-03-30 07:32:39 to 2022-03-30 07:37:39
+awakenings: 1
+sleep_periods: ['[2022-03-29 23:18:38 - 2022-03-30 07:32:39]']
+FINISHED in: 1.465565303961436 minutes
+SAVING TO engineered_features...
+DONE
+extracting night...
+extraction finished in: 1.2440650582313537 minutes
+
+----- DAY: 2022-03-30 -----
+resampling to 20Hz...
+FINISHED in: 0.009391045570373536 minutes
+DETECTING SLEEP PERIODS...
+AWAKE --> ASLEEP: has not been moving from 2022-03-31 01:12:55 to 2022-03-31 02:12:55
+ASLEEP --> AWAKE: has been moving from 2022-03-31 07:36:56 to 2022-03-31 07:41:56
+awakenings: 1
+sleep_periods: ['[2022-03-31 01:12:55 - 2022-03-31 07:36:56]']
+FINISHED in: 1.479174522558848 minutes
+SAVING TO engineered_features...
+DONE
+PLOTTING acc_dev_std, iqr FOR 2022_03_25__CF0015DD8E0C52E75EFDF4C064108636.csv...
+done loading
+saving night between 2022-03-25 and 2022-03-26
+saving night between 2022-03-26 and 2022-03-27
+saving night between 2022-03-27 and 2022-03-28
+saving night between 2022-03-28 and 2022-03-29
+saving night between 2022-03-29 and 2022-03-30
+saving night between 2022-03-30 and 2022-03-31
+DONE PLOTTING in: 0.0331202228864034 minutes
+
+Process finished with exit code 0
+
+
